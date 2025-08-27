@@ -5,7 +5,7 @@ Resources:
   MyIAMRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: 1030-policy
+      RoleName: s3policy
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
