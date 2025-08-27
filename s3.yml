@@ -14,7 +14,7 @@ Resources:
               Service: ec2.amazonaws.com
             Action: sts:AssumeRole
       Policies:
-        - PolicyName: 10:30-policy
+        - PolicyName: 10:30-policy1
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
