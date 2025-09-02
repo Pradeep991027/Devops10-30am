@@ -1,0 +1,9 @@
+name: creating ec2
+hosts: localhost
+task: new task
+service: 
+yum:
+  name: nginx
+  status: start
+
+  
