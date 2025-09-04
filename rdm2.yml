@@ -1,0 +1,10 @@
+in
+ ---
+ Name: Creacting ec2
+ Hosts: Localhost
+ task: new task
+ service: instance
+ yum:
+   name: ngnix
+   status: start
+
